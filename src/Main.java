@@ -14,9 +14,6 @@ public class Main {
         persona.setterName("Nicolas");
         String name = persona.getterName();
         System.out.println(name);
-
-       
-        
     }
 
 
@@ -53,4 +50,7 @@ public String getterName(){
     return this.name;
 }
 
+
 }
+
+class Cliente extends Persona {}
